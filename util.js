@@ -7,7 +7,7 @@ function toString(){
     for(let num = 1; num < colorsLength; num++)
     {
       colorCombination = getters.GetColorFromPairNumber(num);
-      colorsManual = colorsManual + num +":        "+ colorCombination.major +",       "+ colorCombination.minor+"\n";
+      colorsManual += num +":        "+ colorCombination.major +",       "+ colorCombination.minor+"\n";
     }
     return colorsManual;
   }
